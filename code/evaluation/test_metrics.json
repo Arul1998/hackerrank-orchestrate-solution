@@ -1,0 +1,9 @@
+{
+  "model_calls": 131,
+  "input_tokens": 127111,
+  "output_tokens": 22629,
+  "images_processed": 48,
+  "cache_hits": 24,
+  "errors": 5,
+  "elapsed_seconds": 3314.05
+}

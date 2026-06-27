@@ -1,0 +1,23 @@
+HackerRank Orchestrate - Submission Package
+============================================
+
+Upload these 3 files on the HackerRank platform:
+
+1. code.zip       -> Code zip upload
+2. output.csv     -> Predictions CSV upload
+3. log.txt        -> Chat transcript upload
+
+Folder location:
+  c:\Users\kutty\Music\Personal\Hackerrank\hackerrank-orchestrate-june26\submission\
+
+Before upload checklist:
+  [x] output.csv has 44 rows (one per claims.csv row)
+  [x] code.zip excludes .env, .cache, dataset, virtualenv
+  [x] log.txt contains Cursor chat transcript
+
+To regenerate output.csv later:
+  cd ..\code
+  copy .env.example .env   (add OPENAI_API_KEY)
+  python main.py --input ../dataset/claims.csv --output ../output.csv --strategy multi_stage
+
+Results announced: June 29, 2026
